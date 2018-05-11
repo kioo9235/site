@@ -1,13 +1,14 @@
 /* layout */
 #wrap {}
 #header {height: 89px; border-bottom: 1px solid #efefef;}
-#banner {height: 550px; background: url(../img/banner-bg1.jpg) no-repeat center top; }
+#banner { }
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
 #select2{background-color: #1d7abd;}
 #select5{background-color: #1d7abd;}
 #infor { }
-#ad {position: relative; background: url(../img/bg1.jpg) no-repeat center top;  z-index: 1; background-size:  cover;}
+#ad {position: relative; background: url(../img/bg1.jpg) no-repeat center top;  z-index: 1; background-size: cover;}
+#ad2 {position: relative; background: url(../img/bg3.png) no-repeat center top;  z-index: 1; background-size: cover;}
 #ad:before {content: ''; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); position: absolute; left: 0; top: 0;} 
 #blog {}
 #site {background-color: #f8f9fa;}
@@ -51,6 +52,9 @@ position: absolute; right: 0; top: 1px; }
 .banner em {font-size: 18px; color: #f66b05; display: block;}
 .banner .view {font-size: 16px; display: inline-block; margin-top: 50px;  border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition: all 0.3s ease;}
 .banner .view:hover {background-color: #000; color: #fff;}
+.banner-img1 {background: url(../img/banner-bg1.jpg) no-repeat center top}
+.banner-img2 {background: url(../img/banner-bg2.jpg) no-repeat center top}
+.banner-img3 {background: url(../img/banner-bg3.jpg) no-repeat center top}
 
 /* sbanner */
 .sbanner {overflow: hidden; padding: 70px 0; }
@@ -154,6 +158,11 @@ position: absolute; right: 0; top: 1px; }
 .ad p {font-size: 16px; color: #fff;}
 .ad .view {font-size: 16px; display: inline-block; margin-top: 50px;  border: 1px solid #fff; padding: 12px 42px; transition: all 0.3s ease; color: #fff;}
 .ad .view:hover {background-color: #fff; color: #000;}
+
+/*ad2*/
+.ad2 {padding: 10px 0 70px 0; text-align: center; z-index: 10; position: relative;}
+.ad2 h3 {font-size: 40px; padding-bottom: 20px; color: #fff;}
+.ad2 p {font-size: 16px; color: #fff;padding-bottom: 50px;}
 
 /* blog */
 .blog {padding: 70px 0;}
@@ -290,9 +299,26 @@ font-size: 16px; text-align: center; color: #666;}
 .fuck li { font-size: 15px;  padding-bottom: 10px; }
 .fuck li.a {color: #333;}
 
+/* bolg2 */
+.bolg2 {overflow: hidden;  padding: 70px 0;text-align: center;}
+.bolg2 h3{font-size: 40px;padding-bottom: 70px;}
+.bolg2 .bs_1 {width: 33.33333%;float: left;}
+.bolg2 h4 {font-size: 18px;color: #333;margin: 8px 0;}
+.bolg2 p {color: #666;font-size: 17px;}
+.bolg2 .bs_2  { width: 33.33333%;float: left;}
+.bolg2 .bs_3  {width: 33.33333%;float: left; }
+/* bolg3 */
+.bolg3 {overflow: hidden;  padding: 70px 0;text-align: center;border-bottom: 1px solid;}
+.bolg3 h3{font-size: 40px;padding-bottom: 70px;}
+.bolg3 .bs_1 {width: 33.33333%;float: left;}
+.bolg3 h4 {font-size: 18px;color: #333;margin: 8px 0;}
+.bolg3 p {color: #666;font-size: 17px;}
+.bolg3 .bs_2  { width: 33.33333%;float: left;}
+.bolg3 .bs_3  {width: 33.33333%;float: left; }
+
 
 /* table-style2 */
-.table-style2 {  }
+.table-style2 { }
 
 /* table-style3 */
 .table-style3 {  }
