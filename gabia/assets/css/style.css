@@ -316,7 +316,15 @@ font-size: 16px; text-align: center; color: #666;}
 .bolg3 .bs_2  { width: 33.33333%;float: left;}
 .bolg3 .bs_3  {width: 33.33333%;float: left; }
 
-
+/*finf2*/
+.finf { padding: 70px 0;	 }
+.finf2{overflow: hidden;border-bottom: 1px solid ;	}
+.finf2 h3{float: left;font-size: 32px;	padding-bottom: 20px;	}
+.finf2 a{float: right;	font-size: 16px;	color: #666;}
+.finf3 {}
+.finf3 ul{}
+.finf3 ul li{font-size: 16px;	color: #666;padding: 20px 0;border-bottom: 1px solid #999;		}
+.finf3 span{display: inline-block;width: 26px;height: 26px;border-radius: 50%;color: #fff;background: #1d7abc;text-align: center;	margin-right: 20px;	margin-left: 20px;	}
 /* table-style2 */
 .table-style2 { }
 
