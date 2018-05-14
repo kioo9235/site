@@ -303,19 +303,17 @@ font-size: 16px; text-align: center; color: #666;}
 /* bolg2 */
 .bolg2 {overflow: hidden;  padding: 70px 0;text-align: center;}
 .bolg2 h3{font-size: 40px;padding-bottom: 70px;}
-.bolg2 .bs_1 {width: 33.33333%;float: left;}
+.bolg2 div {width: 33.33333%;float: left;}
 .bolg2 h4 {font-size: 18px;color: #333;margin: 8px 0;}
 .bolg2 p {color: #666;font-size: 17px;}
-.bolg2 .bs_2  { width: 33.33333%;float: left;}
-.bolg2 .bs_3  {width: 33.33333%;float: left; }
+
 /* bolg3 */
 .bolg3 {overflow: hidden;  padding: 70px 0;text-align: center;border-bottom: 1px solid;}
 .bolg3 h3{font-size: 40px;padding-bottom: 70px;}
-.bolg3 .bs_1 {width: 33.33333%;float: left;}
+.bolg3 div {width: 33.33333%;float: left;}
 .bolg3 h4 {font-size: 18px;color: #333;margin: 8px 0;}
 .bolg3 p {color: #666;font-size: 17px;}
-.bolg3 .bs_2  { width: 33.33333%;float: left;}
-.bolg3 .bs_3  {width: 33.33333%;float: left; }
+
 
 /*finf2*/
 .finf { padding: 70px 0;	 }
